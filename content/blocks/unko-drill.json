@@ -1,0 +1,21 @@
+{
+  "name": "Unko Drill",
+  "description": "easy mode :D",
+  "type": "Drill",
+  "size": 1,
+  "tier": 5,
+  "drillTime": 10,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+	  { "item": "copper", "amount": 500 }
+  ],
+  "category": "production",
+  "research": "laser-drill"
+}
