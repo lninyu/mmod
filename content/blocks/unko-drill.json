@@ -2,7 +2,7 @@
   "name": "Unko Drill",
   "description": "easy mode :D",
   "type": "Drill",
-  "size": 1,
+  "size": 2,
   "tier": 5,
   "drillTime": 10,
   "consumes": {
