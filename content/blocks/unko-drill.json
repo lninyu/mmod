@@ -3,8 +3,8 @@
   "description": "easy mode :D",
   "type": "Drill",
   "size": 2,
-  "tier": 5,
-  "drillTime": 10,
+  "tier": 6,
+  "drillTime": 2,
   "consumes": {
     "liquid": {
       "liquid": "water",
@@ -14,7 +14,7 @@
     }
   },
   "requirements": [
-	  { "item": "copper", "amount": 500 }
+	  { "item": "copper", "amount": 1000 }
   ],
   "category": "production",
   "research": "laser-drill"
