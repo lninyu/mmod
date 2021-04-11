@@ -3,12 +3,13 @@
   "description": "easy mode :D",
   "type": "Drill",
   "size": 2,
+  "health": 2500
   "tier": 100,
   "drillTime": 1,
   "itemCapacity": 5000,
   "liquidCapacity": 5000,
   "liquidBoostIntensity": 6.4,
-  "rotateSpeed": 5,
+  "rotateSpeed": 20,
   "consumes": {
     "liquid": {
       "liquid": "water",
