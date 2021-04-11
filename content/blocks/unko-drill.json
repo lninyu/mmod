@@ -5,8 +5,10 @@
   "size": 2,
   "tier": 100,
   "drillTime": 0,
+  "itemCapacity": 5000,
+  "liquidCapacity": 5000,
+  "liquidBoostIntensity": 6.4,
   "consumes": {
-    "power": 14.8,
     "liquid": {
       "liquid": "water",
       "amount": 0.1,
