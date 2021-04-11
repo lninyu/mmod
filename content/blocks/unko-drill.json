@@ -8,6 +8,7 @@
   "itemCapacity": 5000,
   "liquidCapacity": 5000,
   "liquidBoostIntensity": 6.4,
+  "rotateSpeed": 5,
   "consumes": {
     "liquid": {
       "liquid": "water",
