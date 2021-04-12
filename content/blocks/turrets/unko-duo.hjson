@@ -6,7 +6,7 @@ reloadTime: 0.001
 recoilAmount: 2
 rotateSpeed: 80
 spread: 0
-maxAmmo: 1
+maxAmmo: 10000
 ammoTypes: {
   copper: {
     speed: 20
@@ -15,7 +15,7 @@ ammoTypes: {
     hitSize: 4
     pierce: true
     lifetime: 50
-    ammoMultiplier: 0
+    ammoMultiplier: 1
     damage: 50
   }
 }
