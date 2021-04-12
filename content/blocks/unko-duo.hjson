@@ -1,0 +1,31 @@
+type: ItemTurret
+name: unkoduo
+
+ammoTypes: {
+  copper: {
+    speed: 25
+    damage: 50
+    bulletWidth: 2
+    bulletHeight: 2
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+
+reloadTime: 2
+range: 160
+size: 1
+burstSpacing: 1
+shots: 4
+targetGround: true
+targetAir: true
+
+recoilAmount: 2
+rotateSpeed: 50
+inaccuracy: 0
+shootCone: 35
+health: 1200
+shootSound: shootSnap
+
+category: turret
