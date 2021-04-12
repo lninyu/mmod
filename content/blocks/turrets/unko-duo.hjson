@@ -19,7 +19,32 @@ ammoTypes: {
     hitEffect: ballfire
     ammoMultiplier: 1
     damage: 50
+  },
+  lead: {
+    speed: 4
+    height: 4
+    width: 4
+    hitSize: 4
+    lifetime: 100
+    hitEffect: ballfire
+    ammoMultiplier: 1
+    damage: 4
+    reloadTime: 100
+    shootCone: 31
+    shots: 31
+  },
+  thorium: {
+    speed: 40
+    height: 4
+    width: 4
+    hitSize: 4
+    lifetime: 100
+    hitEffect: ballfire
+    ammoMultiplier: 1
+    damage: 500
+    reloadTime: 1
   }
+  
 }
 requirements: [
   copper/4
