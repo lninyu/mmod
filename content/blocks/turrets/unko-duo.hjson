@@ -1,31 +1,26 @@
 type: DoubleTurret
-name: unko duo
+name: Unko Duo
 
-ammoTypes: {
+health: 2000
+size: 1
+reload: 1
+range: 1000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 30
+rotatespeed: 12
+ammo: {
   copper: {
-    speed: 25
+    speed: 50
     damage: 50
-    bulletWidth: 2
-    bulletHeight: 2
+    bulletWidth: 5
+    bulletHeight: 5
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
   }
 }
-
-reloadTime: 2
-range: 160
-size: 1
-burstSpacing: 1
-shots: 4
-targetGround: true
-targetAir: true
-
-recoilAmount: 2
-rotateSpeed: 50
-inaccuracy: 0
-shootCone: 35
-health: 1200
-shootSound: shootSnap
-
+requirements: [
+  copper/4
+]
 category: turret
+research: duo
