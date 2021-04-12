@@ -1,13 +1,13 @@
 type: ItemTurret
 localizedName: unko
 range: 300
-shootCone: 7
-shots: 7
+shootCone: 15
+shots: 15
 reloadTime: 0.0001
 recoilAmount: 2
 rotateSpeed: 80
-spread: 1
-inaccuracy: 0.5
+spread: 0.5
+inaccuracy: 4
 maxAmmo: 10000
 ammoTypes: {
   copper: {
@@ -16,7 +16,6 @@ ammoTypes: {
     width: 4
     hitSize: 4
     lifetime: 100
-    hitEffect: ballfire
     ammoMultiplier: 1
     damage: 50
   },
@@ -26,12 +25,8 @@ ammoTypes: {
     width: 4
     hitSize: 4
     lifetime: 100
-    hitEffect: ballfire
     ammoMultiplier: 1
     damage: 4
-    reloadTime: 100
-    shootCone: 31
-    shots: 31
   },
   thorium: {
     speed: 40
@@ -39,10 +34,8 @@ ammoTypes: {
     width: 4
     hitSize: 4
     lifetime: 100
-    hitEffect: ballfire
     ammoMultiplier: 1
     damage: 500
-    reloadTime: 1
   }
   
 }
