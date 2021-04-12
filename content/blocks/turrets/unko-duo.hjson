@@ -1,9 +1,9 @@
 type: ItemTurret
 localizedName: unko
 range: 1500
-shots: 4
-reloadTime: 0.1
-recoilAmount: 1
+shots: 8
+reloadTime: 0.001
+recoilAmount: 2
 rotateSpeed: 80
 spread: 0
 maxAmmo: 1
@@ -15,7 +15,6 @@ ammoTypes: {
     hitSize: 4
     pierce: true
     lifetime: 50
-    knockback: 1
     ammoMultiplier: 0
     damage: 50
   }
