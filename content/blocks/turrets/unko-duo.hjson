@@ -4,7 +4,7 @@ name: Unko Duo
 health: 2000
 size: 1
 reload: 1
-range: 1000
+range: 200
 ammoUseEffect: shellEjectSmall
 inaccuracy: 30
 rotatespeed: 12
