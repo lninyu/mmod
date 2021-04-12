@@ -1,15 +1,27 @@
-shootSound: swings
-ammo: {
+type: ItemTurret
+localizedName: unko
+range: 1500
+shots: 2
+reloadTime: 1
+recoilAmount: 1
+rotateSpeed: 25
+spread: 0
+ammoTypes: {
   copper: {
-    speed: 50.0
+    speed: 80
+    height: 4
+    width: 4
+    hitSize: 4
+    pierce: true
+    lifetime: 80
+    knockback: 1
+    ammoMultiplier: 1
     damage: 50
-    reloadMultiplier: 50.0
-    bulletWidth: 7
-    bulletHeight: 9
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    ammoMultiplier: 4
-    backColor: ac7349
-    frontColor: dcd16b
   }
 }
+requirements: [
+  copper/4
+]
+shootSound: swings
+category: turret
+research: duo
