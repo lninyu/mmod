@@ -10,29 +10,29 @@ inaccuracy: 0
 maxAmmo: 20
 ammoTypes: {
   copper: {
-    speed: 8
+    speed: 2
     height: 4
     width: 4
     hitSize: 4
-    lifetime: 100
+    lifetime: 200
     ammoMultiplier: 1
     damage: 50
   },
   lead: {
-    speed: 4
+    speed: 1
     height: 4
     width: 4
     hitSize: 4
-    lifetime: 100
+    lifetime: 400
     ammoMultiplier: 1
-    damage: 4
+    damage: 10
   },
   thorium: {
     speed: 40
     height: 4
     width: 4
     hitSize: 4
-    lifetime: 100
+    lifetime: 50
     ammoMultiplier: 1
     damage: 500
   }
