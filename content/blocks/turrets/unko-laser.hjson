@@ -1,0 +1,14 @@
+type: PowerTurret
+localizedName: unko laser
+range: 300
+recoilAmount: 2
+rotateSpeed: 80
+spread: 0
+inaccuracy: 0
+ammoTypes: {}
+requirements: [
+  copper/4
+]
+shootSound: swings
+category: turret
+research: duo
