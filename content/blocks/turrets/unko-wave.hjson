@@ -5,7 +5,7 @@ shootCone: 480
 shots: 480
 reloadTime: 90
 recoilAmount: 0
-rotateSpeed: 80
+rotateSpeed: 0
 spread: 0.75
 inaccuracy: 0
 maxAmmo: 20
