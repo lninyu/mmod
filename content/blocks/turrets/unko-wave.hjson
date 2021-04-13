@@ -1,12 +1,12 @@
 type: ItemTurret
 localizedName: unko wave
 range: 500
-shootCone: 540
-shots: 540
+shootCone: 480
+shots: 480
 reloadTime: 90
 recoilAmount: 0
 rotateSpeed: 80
-spread: 0.5
+spread: 0.75
 inaccuracy: 0
 maxAmmo: 20
 ammoTypes: {
