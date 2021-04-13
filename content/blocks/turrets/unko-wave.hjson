@@ -3,7 +3,7 @@ localizedName: unko wave
 range: 500
 shootCone: 360
 reloadTime: 90
-recoilAmount: 
+recoilAmount: 0
 rotateSpeed: 80
 spread: 1
 pierce: true
