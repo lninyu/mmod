@@ -5,7 +5,11 @@ recoilAmount: 2
 rotateSpeed: 80
 spread: 0
 inaccuracy: 0
-ammoTypes: {}
+shootType: {
+  type: LightningBulletType
+  lightningLength: 15
+  damage: 500
+}
 requirements: [
   copper/4
 ]
