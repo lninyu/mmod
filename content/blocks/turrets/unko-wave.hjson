@@ -1,0 +1,46 @@
+type: ItemTurret
+localizedName: unko wave
+range: 500
+shootCone: 360
+reloadTime: 40
+recoilAmount: 
+rotateSpeed: 80
+spread: 1
+inaccuracy: 0
+maxAmmo: 20
+ammoTypes: {
+  copper: {
+    speed: 8
+    height: 4
+    width: 4
+    hitSize: 4
+    lifetime: 100
+    ammoMultiplier: 1
+    damage: 50
+  },
+  lead: {
+    speed: 4
+    height: 4
+    width: 4
+    hitSize: 4
+    lifetime: 100
+    ammoMultiplier: 1
+    damage: 4
+  },
+  thorium: {
+    speed: 40
+    height: 4
+    width: 4
+    hitSize: 4
+    lifetime: 100
+    ammoMultiplier: 1
+    damage: 500
+  }
+  
+}
+requirements: [
+  copper/4
+]
+shootSound: swings
+category: turret
+research: duo
