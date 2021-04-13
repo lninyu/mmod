@@ -1,42 +1,44 @@
 type: ItemTurret
 localizedName: unko wave
 range: 500
-shootCone: 360
-shots: 360
+shootCone: 720
+shots: 720
 reloadTime: 90
 recoilAmount: 0
 rotateSpeed: 80
-spread: 1
-pierce: true
+spread: 0.5
 inaccuracy: 0
 maxAmmo: 20
 ammoTypes: {
   copper: {
     speed: 2
-    height: 4
+    height: 16
     width: 4
     hitSize: 4
     lifetime: 200
     ammoMultiplier: 1
     damage: 50
+    pierce: true
   },
   lead: {
     speed: 1
-    height: 4
+    height: 16
     width: 4
     hitSize: 4
     lifetime: 400
     ammoMultiplier: 1
     damage: 10
+    pierce: true
   },
   thorium: {
     speed: 40
-    height: 4
+    height: 16
     width: 4
     hitSize: 4
-    lifetime: 50
+    lifetime: 25
     ammoMultiplier: 1
     damage: 500
+    pierce: true
   }
   
 }
