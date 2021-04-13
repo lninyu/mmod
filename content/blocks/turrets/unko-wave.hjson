@@ -6,6 +6,7 @@ reloadTime: 90
 recoilAmount: 
 rotateSpeed: 80
 spread: 1
+pierce: true
 inaccuracy: 0
 maxAmmo: 20
 ammoTypes: {
