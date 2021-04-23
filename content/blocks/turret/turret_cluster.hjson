@@ -1,0 +1,33 @@
+type: ItemTurret
+range: 150
+shootCone: 16
+shots: 16
+reloadTime: 1
+recoilAmount: 5
+rotateSpeed: 40
+spread: 0.4
+inaccuracy: 10
+maxAmmo: 500
+ammoTypes: {
+  copper: {
+    ammoMultiplier: 50
+    speed: 4
+    height: 8
+    width: 8
+    hitSize: 8
+    lifetime: 500
+    damage: 0
+    frontColor: ffff00
+    backColor: 00ffff
+    homingPower: 4
+    homingRange: 250
+    splashDamageRadius: 25
+    splashDamage: 25
+  }
+}
+requirements: [
+  copper/1
+]
+shootSound: shootBig
+category: turret
+research: drill_s1

@@ -1,0 +1,60 @@
+type: ItemTurret
+range: 8000
+shootCone: 360
+shots: 3600
+reloadTime: 2500
+rotateSpeed: 0
+spread: 0.1
+inaccuracy: 0
+maxAmmo: 50
+ammoTypes: {
+  copper: {
+    ammoMultiplier: 1
+    speed: 0.5
+    height: 32
+    width: 32
+    hitSize: 32
+    lifetime: 4000
+    damage: 100
+    pierce: true
+    status: melting
+    statusDuration: 30000
+    frontColor: 44ff44
+    backColor: aaff44
+  }
+  lead: {
+      ammoMultiplier: 1
+      speed: 0.5
+      height: 32
+      width: 32
+      hitSize: 32
+      lifetime: 4000
+      damage: 250
+      pierce: true
+      status: melting
+      statusDuration: 30000
+      frontColor: ffaaff
+      backColor: 44ffaa
+    }
+  thorium: {
+      ammoMultiplier: 1
+      speed: 0.5
+      height: 32
+      width: 32
+      hitSize: 32
+      lifetime: 4000
+      damage: 10000
+      pierce: true
+      status: melting
+      statusDuration: 30000
+      trailColor: ff8800
+      frontColor: ff6666
+      backColor: ffaaaa
+    }
+}
+requirements: [
+  copper/1
+]
+shootSound: laserbig
+category: turret
+research: drill_s1

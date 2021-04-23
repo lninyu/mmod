@@ -1,0 +1,8 @@
+type: Wall
+health: 160000
+size: 4
+requirements: [
+  copper/13
+]
+category: defense
+research: wall_s3

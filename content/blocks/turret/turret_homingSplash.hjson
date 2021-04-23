@@ -1,0 +1,32 @@
+type: ItemTurret
+range: 500
+shootCone: 360
+shots: 8
+reloadTime: 10
+recoilAmount: 0
+rotateSpeed: 50
+spread: 45
+maxAmmo: 10
+ammoTypes: {
+  copper: {
+    ammoMultiplier: 2
+    speed: 2
+    height: 8
+    width: 8
+    hitSize: 8
+    lifetime: 500
+    damage: 10
+    frontColor: ffff00
+    backColor: 00ffff
+    homingPower: 0.02
+    homingRange: 500
+    splashDamageRadius: 150
+    splashDamage: 50
+  }
+}
+requirements: [
+  copper/1
+]
+shootSound: shootBig
+category: turret
+research: turret_cluster

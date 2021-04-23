@@ -1,0 +1,344 @@
+type: PowerTurret
+range: 800
+shootCone: 360
+reloadTime: 150
+rotateSpeed: 2.5
+inaccuracy: 2
+maxAmmo: 1
+powerUse: 100
+hasPower: true
+shootType: {
+    type: BasicBulletType
+    hitSound: explosionbig
+    speed: 2
+    damage: 0
+    lifetime: 400
+    width: 16
+    height: 16
+    hitSize: 16
+    shootEffect: shootSmall
+    smokeEffect: none
+    hitEffect: hitBulletSmall
+    despawnEffect: shootSmallSmoke
+    homingPower: 0.005
+    homingRange: 1600
+    fragBullets: 1
+    fragBullet: {
+        type: ArtilleryBulletType
+        hitSound: explosionbig
+        speed: 0
+        damage: 0
+        lifetime: 2
+        width: 16
+        height: 16
+        hitSize: 0
+        statusDuration: 1500
+        splashDamageRadius: 16
+        splashDamage: 693
+        status: melting
+        fragBullets: 1
+        fragBullet: {
+            type: ArtilleryBulletType
+            hitSound: explosionbig
+            speed: 0
+            damage: 0
+            lifetime: 2
+            width: 32
+            height: 32
+            hitSize: 0
+            statusDuration: 1500
+            splashDamageRadius: 32
+            splashDamage: 555
+            status: melting
+            fragBullets: 1
+            fragBullet: {
+                type: ArtilleryBulletType
+                hitSound: explosionbig
+                speed: 0
+                damage: 0
+                lifetime: 2
+                width: 48
+                height: 48
+                hitSize: 0
+                statusDuration: 1500
+                splashDamageRadius: 48
+                splashDamage: 444
+                status: melting
+                fragBullets: 1
+                fragBullet: {
+                    type: ArtilleryBulletType
+                    hitSound: explosionbig
+                    speed: 0
+                    damage: 0
+                    lifetime: 2
+                    width: 64
+                    height: 64
+                    hitSize: 0
+                    statusDuration: 1500
+                    splashDamageRadius: 64
+                    splashDamage: 355
+                    status: melting
+                    fragBullets: 1
+                    fragBullet: {
+                        type: ArtilleryBulletType
+                        hitSound: explosionbig
+                        speed: 0
+                        damage: 0
+                        lifetime: 2
+                        width: 80
+                        height: 80
+                        hitSize: 0
+                        statusDuration: 1500
+                        splashDamageRadius: 80
+                        splashDamage: 284
+                        status: melting
+                        fragBullets: 1
+                        fragBullet: {
+                            type: ArtilleryBulletType
+                            hitSound: explosionbig
+                            speed: 0
+                            damage: 0
+                            lifetime: 2
+                            width: 96
+                            height: 96
+                            hitSize: 0
+                            statusDuration: 1500
+                            splashDamageRadius: 96
+                            splashDamage: 227
+                            status: melting
+                            fragBullets: 1
+                            fragBullet: {
+                                type: ArtilleryBulletType
+                                hitSound: explosionbig
+                                speed: 0
+                                damage: 0
+                                lifetime: 2
+                                width: 112
+                                height: 112
+                                hitSize: 0
+                                statusDuration: 1500
+                                splashDamageRadius: 112
+                                splashDamage: 181
+                                status: melting
+                                fragBullets: 1
+                                fragBullet: {
+                                    type: ArtilleryBulletType
+                                    hitSound: explosionbig
+                                    speed: 0
+                                    damage: 0
+                                    lifetime: 2
+                                    width: 128
+                                    height: 128
+                                    hitSize: 0
+                                    statusDuration: 1500
+                                    splashDamageRadius: 128
+                                    splashDamage: 145
+                                    status: melting
+                                    fragBullets: 1
+                                    fragBullet: {
+                                        type: ArtilleryBulletType
+                                        hitSound: explosionbig
+                                        speed: 0
+                                        damage: 0
+                                        lifetime: 2
+                                        width: 144
+                                        height: 144
+                                        hitSize: 0
+                                        statusDuration: 1500
+                                        splashDamageRadius: 144
+                                        splashDamage: 116
+                                        status: melting
+                                        fragBullets: 1
+                                        fragBullet: {
+                                            type: ArtilleryBulletType
+                                            hitSound: explosionbig
+                                            speed: 0
+                                            damage: 0
+                                            lifetime: 2
+                                            width: 160
+                                            height: 160
+                                            hitSize: 0
+                                            statusDuration: 1500
+                                            splashDamageRadius: 160
+                                            splashDamage: 93
+                                            status: melting
+                                            fragBullets: 1
+                                            fragBullet: {
+                                                type: ArtilleryBulletType
+                                                hitSound: explosionbig
+                                                speed: 0
+                                                damage: 0
+                                                lifetime: 2
+                                                width: 176
+                                                height: 176
+                                                hitSize: 0
+                                                statusDuration: 1500
+                                                splashDamageRadius: 176
+                                                splashDamage: 74
+                                                status: melting
+                                                fragBullets: 1
+                                                fragBullet: {
+                                                    type: ArtilleryBulletType
+                                                    hitSound: explosionbig
+                                                    speed: 0
+                                                    damage: 0
+                                                    lifetime: 2
+                                                    width: 192
+                                                    height: 192
+                                                    hitSize: 0
+                                                    statusDuration: 1500
+                                                    splashDamageRadius: 192
+                                                    splashDamage: 59
+                                                    status: melting
+                                                    fragBullets: 1
+                                                    fragBullet: {
+                                                        type: ArtilleryBulletType
+                                                        hitSound: explosionbig
+                                                        speed: 0
+                                                        damage: 0
+                                                        lifetime: 2
+                                                        width: 208
+                                                        height: 208
+                                                        hitSize: 0
+                                                        statusDuration: 1500
+                                                        splashDamageRadius: 208
+                                                        splashDamage: 47
+                                                        status: melting
+                                                        fragBullets: 1
+                                                        fragBullet: {
+                                                            type: ArtilleryBulletType
+                                                            hitSound: explosionbig
+                                                            speed: 0
+                                                            damage: 0
+                                                            lifetime: 2
+                                                            width: 224
+                                                            height: 224
+                                                            hitSize: 0
+                                                            statusDuration: 1500
+                                                            splashDamageRadius: 224
+                                                            splashDamage: 38
+                                                            status: melting
+                                                            fragBullets: 1
+                                                            fragBullet: {
+                                                                type: ArtilleryBulletType
+                                                                hitSound: explosionbig
+                                                                speed: 0
+                                                                damage: 0
+                                                                lifetime: 2
+                                                                width: 240
+                                                                height: 240
+                                                                hitSize: 0
+                                                                statusDuration: 1500
+                                                                splashDamageRadius: 240
+                                                                splashDamage: 30
+                                                                status: melting
+                                                                fragBullets: 1
+                                                                fragBullet: {
+                                                                    type: ArtilleryBulletType
+                                                                    hitSound: explosionbig
+                                                                    speed: 0
+                                                                    damage: 0
+                                                                    lifetime: 2
+                                                                    width: 256
+                                                                    height: 256
+                                                                    hitSize: 0
+                                                                    statusDuration: 1500
+                                                                    splashDamageRadius: 256
+                                                                    splashDamage: 24
+                                                                    status: melting
+                                                                    fragBullets: 1
+                                                                    fragBullet: {
+                                                                        type: ArtilleryBulletType
+                                                                        hitSound: explosionbig
+                                                                        speed: 0
+                                                                        damage: 0
+                                                                        lifetime: 2
+                                                                        width: 272
+                                                                        height: 272
+                                                                        hitSize: 0
+                                                                        statusDuration: 1500
+                                                                        splashDamageRadius: 272
+                                                                        splashDamage: 19
+                                                                        status: melting
+                                                                        fragBullets: 1
+                                                                        fragBullet: {
+                                                                            type: ArtilleryBulletType
+                                                                            hitSound: explosionbig
+                                                                            speed: 0
+                                                                            damage: 0
+                                                                            lifetime: 2
+                                                                            width: 288
+                                                                            height: 288
+                                                                            hitSize: 0
+                                                                            statusDuration: 1500
+                                                                            splashDamageRadius: 288
+                                                                            splashDamage: 15
+                                                                            status: melting
+                                                                            fragBullets: 1
+                                                                            fragBullet: {
+                                                                                type: ArtilleryBulletType
+                                                                                hitSound: explosionbig
+                                                                                speed: 0
+                                                                                damage: 0
+                                                                                lifetime: 2
+                                                                                width: 304
+                                                                                height: 304
+                                                                                hitSize: 0
+                                                                                statusDuration: 1500
+                                                                                splashDamageRadius: 304
+                                                                                splashDamage: 12
+                                                                                status: melting
+                                                                                fragBullets: 1
+                                                                                fragBullet: {
+                                                                                    type: ArtilleryBulletType
+                                                                                    hitSound: explosionbig
+                                                                                    speed: 0
+                                                                                    damage: 0
+                                                                                    lifetime: 2
+                                                                                    width: 320
+                                                                                    height: 320
+                                                                                    hitSize: 0
+                                                                                    statusDuration: 1500
+                                                                                    splashDamageRadius: 320
+                                                                                    splashDamage: 10
+                                                                                    status: melting
+                                                                                    fragBullets: 25
+                                                                                    fragBullet: {
+                                                                                        type: LiquidBulletType
+                                                                                        liquid: slag
+                                                                                        lifetime: 600
+                                                                                        speed: 0.5
+                                                                                        height: 32
+                                                                                        width: 32
+                                                                                        hitSize: 48
+                                                                                        pierce: true
+                                                                                        damage: 1
+                                                                                        status: melting
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+requirements: [
+    copper/1
+]
+shootSound: laserbig
+category: turret
+research: drill_s1

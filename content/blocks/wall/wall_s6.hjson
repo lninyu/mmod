@@ -1,0 +1,8 @@
+type: Wall
+health: 360000
+size: 6
+requirements: [
+  copper/31
+]
+category: defense
+research: wall_s5

@@ -1,0 +1,10 @@
+type: PowerNode
+health: 9000
+size: 3
+laserRange: 200
+maxNodes: 8
+requirements: [
+  copper/25
+]
+category: power
+research: transmissionTower1

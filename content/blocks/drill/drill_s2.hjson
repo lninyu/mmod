@@ -1,0 +1,24 @@
+type: Drill
+size: 2
+tier: 255
+drillTime: 1
+liquidBoostIntensity: 20
+rotateSpeed: 8
+health: 400
+itemCapacity: 4000
+liquidCapacity: 400
+consumes: {
+    liquid: {
+        liquid: water
+        amount: 0.4
+        optional: true
+        booster: true
+    }
+}
+ambientSound: drill
+ambientSoundVolume: 0.8
+requirements: [
+  copper/4
+]
+category: production
+research: drill_s1

@@ -1,0 +1,10 @@
+type: LaunchPad
+health: 1000
+size: 3
+launchTime: 10
+itemCapacity: 100
+requirements: [
+  copper/1
+]
+category: power
+research: drill_s1

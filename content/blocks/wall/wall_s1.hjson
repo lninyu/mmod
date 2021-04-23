@@ -1,0 +1,8 @@
+type: Wall
+health: 10000
+size: 1
+requirements: [
+  copper/1
+]
+category: defense
+research: drill_s1

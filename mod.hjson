@@ -1,0 +1,6 @@
+name: "dev"
+displayName: "myMod<dev>"
+author: "Lninyu"
+description: "wip forever"
+version: 1.0
+minGameVersion: 105

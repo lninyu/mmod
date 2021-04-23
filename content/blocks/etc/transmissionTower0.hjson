@@ -1,0 +1,10 @@
+type: PowerNode
+health: 1000
+size: 1
+laserRange: 20
+maxNodes: 4
+requirements: [
+  copper/1
+]
+category: power
+research: drill_s1
